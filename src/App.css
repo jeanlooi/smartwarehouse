@@ -1,0 +1,64 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  background-image: url('./assets/background.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  width: '100vw';
+  margin: auto;
+  font-family: "Kanit:ital", sans-serif;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: '100vh';
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-container {
+  gap: 30px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.center-div {
+  margin: auto;
+  width: '100vw';
+  padding: 30px;
+}
+
+.text-box {
+  background-color: #0068cf;       /* Cyan background */
+  color: white;                 /* Black text color */
+  padding: 5px;                /* Padding around the text */
+  border-radius: 5px;           /* Rounded corners */
+  border: 2px solid #0081b8;    /* Border color matching cyan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+  width: 60%;                   /* Optional: Control width */
+  margin: 10px auto;            /* Center horizontally with auto margins */
+  font-family: Arial, sans-serif; /* Optional: Set a clean font */
+  text-align: center;
+}
+
+.scroll {
+  height: 100vh;
+  overflow-y: scroll;
+}
