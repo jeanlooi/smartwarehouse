@@ -15,12 +15,12 @@ If you are developing a production application, we recommend using TypeScript an
 ## Install Packages
 npm create vite@latest
 
-Client Side packages
-npm intall -D vite
-npm install react-icons
-npm install react-router-dom
-npm install react-bootstrap bootstrap
-npm install --save cdbreact
+- Client Side packages
+- npm intall -D vite
+- npm install react-icons
+- npm install react-router-dom
+- npm install react-bootstrap bootstrap
+- npm install --save cdbreact
 
-Server Side packages
+- Server Side packages
 
